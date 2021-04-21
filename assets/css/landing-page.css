@@ -1,18 +1,3 @@
-/*!
-
- =========================================================
- * Awesome Landing Page - v1.2.2
- =========================================================
- 
- * Product Page: https://www.creative-tim.com/product/awesome-landing-page
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/awesome-landing-page/blob/master/LICENSE.md)
- 
- =========================================================
- 
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
- */
-
 /*           Font Smoothing      */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, a, .td-name, td {
   -moz-osx-font-smoothing: grayscale;
@@ -1746,7 +1731,7 @@ a {
 }
 
 .omotac a:hover {
-  color:  #ba88ec;
+  color: #ba88ec;
 }
 
 body.bg {
@@ -1769,4 +1754,28 @@ body.bg {
 
 .landing-page .section-features .card.card-blue {
   border-color: #dec7ee;
+}
+
+/*Responsive*/
+
+@media screen and (max-width:990px) {
+  .col-md-6 {
+    width: 100%;
+}
+.landing-page .section-presentation {
+  min-height: auto;
+}
+.landing-page .section-presentation .description {
+  padding: 0px 5px 0;
+}
+.landing-page .section-no-padding .parallax .info .btn-lg {
+  margin-top: 30px;
+  padding: 14px 30px;
+}
+}
+
+@media screen and (max-width:800px) {
+  .landing-page .section-no-padding .parallax .info {
+    top:70px;
+  }
 }
